@@ -3,15 +3,31 @@
   <div class="home">
     <div class="title">title</div>
     <div class="content">content</div>
+    <v-app id="inspire">
+      <carousel :colors="colors"/>
+    </v-app>
   </div>
 </template>
 
 <script>
+import carousel from '@componentsDif/Home/carousel'
+console.log(window.config)
+
 export default {
   name: '',
-  components: {},
+  components: {
+    carousel
+  },
   data () {
-    return {}
+    return {
+      colors: [
+        'primary',
+        'secondary',
+        'yellow darken-2',
+        'red',
+        'orange'
+      ]
+    }
   },
   computed: {},
   methods: {},
