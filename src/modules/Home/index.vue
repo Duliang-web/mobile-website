@@ -11,7 +11,6 @@
 
 <script>
 import carousel from '@componentsDif/Home/carousel'
-console.log(window.config)
 
 export default {
   name: '',

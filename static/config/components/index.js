@@ -1,1 +1,1 @@
-exports.config = 'default'
+exports.config = 'xiaCheng'
